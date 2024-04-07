@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, rep)=>{
     console.log("request on /");
-    rep.send("Home Page");
+    rep.sendFile(__dirname + '/views/index.html');
 });
 
 app.get('/homework', (req, rep) => {
