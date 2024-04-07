@@ -12,4 +12,4 @@ app.get('/homework', (req, rep) => {
     rep.send('<h1>Homework Page</h1>');
 });
 
-app.listen(3000, ()=>console.log("Listing on port 80."));
+app.listen(80, ()=>console.log("Listing on port 80."));
