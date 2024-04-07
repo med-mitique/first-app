@@ -7,7 +7,7 @@ app.get('/', (req, rep)=>{
 });
 
 app.get('/homework', (req, rep) => {
-    rep.send('<h1>Homework</h1>');
+    rep.send('<h1>Homework Page</h1>');
 
 });
 
